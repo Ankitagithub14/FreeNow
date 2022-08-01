@@ -33,6 +33,7 @@ import Program.base;
 		driver=InitlializeDriver1();
 	    driver.manage().window().maximize();
 	    driver.manage().deleteAllCookies();
+	    
 	}
 	@Test
 	  public void login() throws InterruptedException, IOException  {

@@ -14,7 +14,6 @@ public class CommonMethod {
 	// public JavascriptExecutor js = (JavascriptExecutor) driver;
 	static Logger logger = Logger.getLogger(CommonMethod.class.getName());
 	
-	
 	By wikipediaSearchBox=By.xpath(("//*[@id='searchInput']"));
 	By wikipediaSearchButton=By.xpath(("//*[@class='pure-button pure-button-primary-progressive']"));
 	
